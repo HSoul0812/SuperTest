@@ -2,6 +2,9 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
+    screens: {
+      lg: { min: '1024px' },
+    },
     extend: {
       colors: {
         white: '#fff',
@@ -13,6 +16,8 @@ module.exports = {
         'light-gray': '#C0BCDF',
         'icon-dark-gray': '#87839F',
         'icon-gray': '#C9C5E8',
+        'card-gray': '#CECAEB',
+        red: '#DA2121',
       },
     },
   },
